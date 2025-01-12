@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generate_fasttext_model_from_recipe_data"
+version = "0.1.0"
+dependencies = [
+    "torch",
+]
