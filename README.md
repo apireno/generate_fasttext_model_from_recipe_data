@@ -37,7 +37,7 @@ This approach is valuable for creating embedding models that are tailored to the
 3.  **Run the Script**:
 
     ```bash
-   python generate_fasttext_model.py
+       python generate_fasttext_model.py
     ```
     *   The script will process your data, extract text, and then train a custom FastText model. The trained model will be saved to a file specified in the script.
 
