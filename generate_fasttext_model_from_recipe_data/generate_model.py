@@ -54,7 +54,6 @@ async def main():
             if word:
                 vector = model.get_word_vector(word)
                 if(len(vector) == model_dim):
-                    vector_str = " ".join([str(v) for v in vector])
                     vector_str = " ".join([str(v) for v in vector]) # More robust conversion to string
                     f.write(f"{word} {vector_str}\n") 
 
